@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="transferferscreen(failed)">
+    <classes>
+      <class name="RunnerClass_one.Tranfer_window_wrong_adress_error_message_show_LTC">
+        <methods>
+          <include name="failedpop"/>
+          <include name="closebrowser"/>
+          <include name="takescreenshot"/>
+          <include name="clickon_proced_button"/>
+          <include name="openBrowser"/>
+        </methods>
+      </class> <!-- RunnerClass_one.Tranfer_window_wrong_adress_error_message_show_LTC -->
+      <class name="RunnerClass_one.Tranfer_window_wrong_adress_error_message_show_BTC">
+        <methods>
+          <include name="takescreenshot"/>
+          <include name="failedpop"/>
+          <include name="clickon_proced_button"/>
+          <include name="openBrowser"/>
+          <include name="closebrowser"/>
+        </methods>
+      </class> <!-- RunnerClass_one.Tranfer_window_wrong_adress_error_message_show_BTC -->
+      <class name="RunnerClass_one.Tranfer_window_valid_amount_Quick_buton_status_ltc">
+        <methods>
+          <include name="openBrowser"/>
+          <include name="closebrowser"/>
+          <include name="clickon_proced_button"/>
+          <include name="takescreenshot"/>
+          <include name="max_amount_error"/>
+        </methods>
+      </class> <!-- RunnerClass_one.Tranfer_window_valid_amount_Quick_buton_status_ltc -->
+    </classes>
+  </test> <!-- transferferscreen(failed) -->
+</suite> <!-- Failed suite [Suite] -->

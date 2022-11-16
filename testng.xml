@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="transferferscreen">
+    <classes>
+      <class name="RunnerClass_one.Tranfer_window_valid_amount_Quick_buton_status_ltc"/>
+      <class name="RunnerClass_one.Tranfer_window_wrong_adress_error_message_show_BTC"/>
+      <class name="RunnerClass_one.Tranfer_window_wrong_adress_error_message_show_LTC"/>
+      
+    </classes>
+  </test> <!-- transferferscreen -->
+</suite> <!-- Suite -->
